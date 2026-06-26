@@ -1,0 +1,9 @@
+button{
+    background-color: #0a192f;
+    border: 1px solid red;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 5px 0;
+}

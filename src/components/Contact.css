@@ -1,0 +1,120 @@
+.contact-section{
+    margin-top: 5%;
+    padding: 0 5%;
+
+}
+.contact-section h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.textheaderdesing{
+     margin-bottom: 3%;
+     text-align: center;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.contact-box-one{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.contactnumber {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+}
+.contactnumber a{
+    color: black;
+}
+
+/*form*/
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.input-group label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #475569;
+}
+.input-group input, 
+.input-group textarea {
+    padding: 12px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #334155;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+.input-group input:focus, 
+.input-group textarea:focus {
+    border-color: #2563eb; /* Focus hone par blue line */
+}
+/* Disabled input style aapke email ke liye */
+.disabled-input {
+    background-color: #f1f5f9;
+    color: #94a3b8 !important;
+    cursor: not-allowed;
+}
+.submit-btn {
+    background-color: #0f172a;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+.submit-btn:hover {
+    background-color: #1d4ed8;
+}
+/* Status Messages Styling */
+.error-msg {
+    background-color: #fee2e2;
+    color: #991b1b;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+.success-msg {
+    background-color: #dcfce7;
+    color: #166534;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .contact{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+.contact-section h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+}

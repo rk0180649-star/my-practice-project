@@ -1,0 +1,149 @@
+/*hero section*/
+.hero-section{
+   background-image: url(/src/images/jjjjd.webp);
+    width: 100%;
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 5%;
+    margin-top: -2px; 
+}
+.hero{
+    padding-top: 7%;
+}
+.hero h1{
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+}
+.hero p{
+    color: #ffffff;
+    padding: 0 0 20px 0;
+    padding: 0;
+}
+.hero-botom{
+    display: flex;
+}
+.hero-botom Button{
+    margin-right: 20px;
+}
+.services{
+    margin-top: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #ffffff;
+}
+.skills-icons{
+    display: flex;
+    justify-content: right;
+    color: #ffffff;
+    padding-left: 20px;
+    margin-top: 5%;
+}
+.skills-icons .icon-ps{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid paleturquoise;
+    background-color: rgba(2, 34, 31, 0.737);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.skills-icons .icon-figma{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(6, 84, 240);
+    background-color: rgba(36, 2, 51, 0.737);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.skills-icons .icon-code{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: rgba(63, 21, 2, 0.737);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px; 
+}
+
+
+@media (max-width: 500px){
+    .hero-section{
+    background-image: url(/src/images/mmmm.webp);
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    text-align: center;
+}
+   .hero h1{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.hero-botom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.hero-botom Button{
+    margin: 0;
+}
+ .services span{
+    width: 100%;
+    text-align: center;
+}
+.skills-icons{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 1%;
+}
+
+
+}
+@media (max-width: 768px){
+    .hero-section{
+    background-image: url(/src/images/ipad.webp);
+    width: 100%;
+    height: 58vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    text-align: center;
+    padding-top: 5%;
+}
+
+.skills-icons{
+ padding-top: 10%;
+}  
+}
+
+@media (max-width: 1024px){
+    .hero-section{
+    background-image: url(/src/images/ipad.webp);
+    width: 100%;
+    height: 55vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    text-align: center;
+    padding-top: 5%;
+}
+.skills-icons{
+ padding-top: 15%;
+}
+    
+}
