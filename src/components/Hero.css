@@ -131,7 +131,7 @@
 }  
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1076px){
     .hero-section{
     background-image: url(/src/images/ipad.webp);
     width: 100%;

@@ -1,7 +1,9 @@
 import React from "react";
 import './Service.css';
 import Tags from "./Tags";
-import { FaPalette, FaCode, FaMobileAlt, FaLaptopCode, FaReact } from "react-icons/fa";
+import { FaPalette, FaCode, FaMobileAlt, FaLaptopCode, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiExpress, SiMongodb, SiNextdotjs, SiTailwindcss, SiVercel } from "react-icons/si";
+import { MdApi } from "react-icons/md";
 
 const Service = () => {
     return(
@@ -37,6 +39,37 @@ const Service = () => {
              reusable components and smooth navigation.</p>
              <div className="tagsdesign"><Tags tags="React Router" /><Tags tags="Components" /></div>
             </div>
+            <div className="card-box">
+            <p><SiNextdotjs /> <SiTailwindcss /></p>
+            <h6>FRONTEND FRAMEWORK & STYLING</h6>
+            <p>Build high-performance server-rendered React applications 
+                with modern utility-first CSS styling.</p>
+             <div className="tagsdesign"><Tags tags="Next.js" /><Tags tags="Tailwind CSS" /></div>
+            </div>
+            <div className="card-box">
+            <p><FaNodeJs /> <SiExpress /></p>
+            <h6> BACKEND DEVELOPMENT</h6>
+            <p> Develop secure server-side logic and robust REST APIs 
+                using JavaScript runtime and framework.</p>
+             <div className="tagsdesign"><Tags tags="Node.js" /><Tags tags="Express.js" /></div>
+            </div>
+            <div className="card-box">
+            <p><MdApi /> <SiMongodb /></p>
+            <h6> DATABASE & API INTEGRATION</h6>
+            <p>Manage flexible NoSQL database schemas and connect
+                 client-server communication smoothly and securely.</p>
+             <div className="tagsdesign"><Tags tags="MongoDB" /><Tags tags="REST API" /></div>
+            </div>
+            <div className="card-box">
+            <p><SiVercel /></p>
+            <h6>CLOUD DEPLOYMENT</h6>
+            <p> Deploy full-stack production-ready web applications
+                 instantly with continuous integration.</p>
+             <div className="tagsdesign"><Tags tags="Vercel" /></div>
+            </div>
+            
+            
+
             </div>
         </div>  
     );

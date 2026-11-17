@@ -33,7 +33,7 @@
 }
 
 
-@media (max-width: 1024px){
+@media (max-width: 1076px){
     .service{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
